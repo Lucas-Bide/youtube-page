@@ -1,0 +1,59 @@
+/* --- Header --- */
+
+img {
+  height: 25px;
+}
+
+form {
+  display: inline;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+input, button {
+  border-radius: 0;
+  height: 25px;
+}
+
+/* --- Video Section */
+
+
+aside, .video-content, .subscribe-button {
+  float: right;
+}
+
+.video-suggestions {
+  width: 40%;
+  text-justify: distribute;
+}
+
+.video-content {
+  width: 60%;
+}
+
+iframe {
+  display: block;
+  margin: 0, auto;
+}
+
+.channel-picture {
+  height: 50px;
+}
+
+.comment-profile-picture {
+  height: 35px;
+}
+
+.suggested-video {
+  display: table-row;
+}
+
+.video-thumbnail {
+  height: 100px;
+}
+
+.video-thumbnail, .suggested-video-info {
+  float: left;
+}
